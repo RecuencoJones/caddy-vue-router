@@ -1,7 +1,5 @@
-:8080 {
-  handle {
-    root * {$WWW_ROOT}
-    try_files {path} /index.html
-    file_server
-  }
-}
+:8080
+
+root * {$WWW_ROOT}
+try_files {path} /index.html
+file_server
