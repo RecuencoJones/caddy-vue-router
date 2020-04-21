@@ -1,0 +1,23 @@
+{
+  "name": "caddy-vue-router",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve",
+    "serve:caddy": "cross-env WWW_ROOT=dist caddy run"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "caddy-npm": "2.0.0-rc.3",
+    "cross-env": "^7.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
